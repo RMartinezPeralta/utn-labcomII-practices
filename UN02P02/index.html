@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+    </style>    
+</head>
+
+<body>
+<table class= "table1">
+    <thead>
+        <tr>
+            <th style="width: 10%;">Nombre</th>
+            <th style="width: 10%;">Apellido</th>
+            <th style="width: 40%;">Profesion</th>
+            <th style="width: 40%;">Distinciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Albert</td>
+            <td>Einstein</td>
+            <td>Físico teórico, matemático, demagogo, profesor.</td>
+            <td>Teoría de la relatividad.</td>
+        </tr>
+        <tr>
+            <td>Nikola</td>
+            <td>Tesla</td>
+            <td>Inventor, ingeniero eléctrico, ingeniero mecánico y físico.</td>
+            <td>Inventor de la electricidad alterna, rayos X, radio, entre otros.</td>
+        </tr>
+        <tr>
+            <td>Isaac</td>
+            <td>Newton</td>
+            <td>Matemático, filósofo, alquimista, teólogo y físico.</td>
+            <td>Ley de gravitacion universal.</td>
+        </tr>
+        
+    </tbody>
+
+    <tfoot style="width: 100%;">    
+        <tr>
+            <td colspan="4">Algunos personajes icónicos de la historia.</td>
+        </tr>        
+    </tfoot>
+</table>
+
+
+<hr>                            <!--para separar tablas-->
+    <div style="height: 200px;"> <!-- no estaría funcionando-->
+
+<table class="table2">
+    <caption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis repellendus similique itaque incidunt deserunt ullam. Repellat iusto porro nisi quasi.</caption>
+    <thead>
+        <th>Encabezado 1</th>
+        <th>Encabezado 2</th>
+        <th>Encabezado 3</th>
+        <th>Encabezado 4</th>
+        <th><a href="http://www.google.com.ar" target="_blank">Encabezado Google</a></th>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td rowspan="5"><a href="http://www.google.com.ar" target="_blank">Google</a></td>
+            
+        </tr>
+        <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            
+        </tr>
+        <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            
+        </tr>
+        <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem, ipsum.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            
+        </tr>
+        
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="5">
+                <b>Unión de columnas.</b>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>

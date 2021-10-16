@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de usuario</title>
+    <style>
+        *{
+            color: black solid;
+        }
+        .nombre_completo{
+            width: 400px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="padding: 10px;">Perfil de usuario</h1>
+
+    <form action="" style="padding: 10px;">
+        <p><input for="estudiante" name="estudiante" value="ESTUDIANTE"  readonly></input></p>
+        <p>
+            <label class="nombre_completo" for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" placeholder="Ingrese nombre completo">
+        </p>
+        <p>
+            <label for="mail">e-mail</label>
+            <input type="email" placeholder="ejemplo@email.com">
+        </p>
+        <p>
+            <label for="edad">Edad:</label>
+            <input type="number" placeholder="edad" maxlength="2">
+        </p>
+        <p>
+            <label for="nacionalidad">Nacionalidad</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="Argentina">Argentina</option>            
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Canada">Canada</option>
+                <option value="Chile">Chile</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="EEUU">EEUU</option>
+                <option value="Francia">Francia</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+        </select>
+        </p>
+        <p>
+            <label for="laboral">Condición laboral:</label>
+            <select name="laboral" id="laboral">
+            <option value="desempleado">Desempleado</option>
+            <option value="busqueda">En búsqueda laboral</option>
+            <option value="part-time">Trabajo part-time</option>
+            <option value="full-time">Trabajo full-time</option>
+            </select>
+        </p>
+        <fieldset style="width:25%">
+            <legend>Otros datos de interes</legend>
+            <p>
+                <label for="gustos_musicales">Gustos musicales:</label>
+                <input type="text" name="gustos-musicales" size="70px">
+            </p>
+            <p>
+                <label for="comidas_preferidas">Comidas preferidas:</label>
+                <input type="text" name="comidas-preferidas" size="70px">
+            </p>
+        </fieldset>
+        <br>
+        <label style="position: static;" for="datos_usuario">Recordar datos de usuario</label>
+        <input type="checkbox">
+        <br><br>
+        <input type="submit" value="Enviar">
+        <br>
+        
+        <!-- <i class="fas fa-check"></i> -->
+        
+        
+    </form>
+</body>
+</html>
