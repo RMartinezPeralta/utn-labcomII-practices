@@ -49,7 +49,8 @@ main {
     float: left;
     width: 60%;
     padding: 0 20px;
-}
+    align-items: center;
+    }
 
 .right {
     background-color: #e5e5e5;
@@ -79,15 +80,31 @@ footer {
 
 .formulario_required{
     width: 600px;
-    padding: 20px;
-    grid-gap: 5px;
-    align-items: center;
+    padding-top: 10px;
+    grid-gap: 3px;
+    align-items: baseline;
     display: grid;
-    text-align: center;
-    grid-template-columns: auto  auto;
+    align-items: center;    
 }
 
 .submit {
     text-align: center;
     align-items: center;
     }
+
+.iframes {
+    width: 300px;
+    display: grid;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.map{
+    margin-left: auto; /* no anda */
+    margin-right: auto; /* no anda */
+    display: flex;
+    align-items: center;
+}
